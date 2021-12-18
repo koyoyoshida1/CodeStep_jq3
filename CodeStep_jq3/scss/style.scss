@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+#jq3 {
+  margin: 20px auto;
+  padding: 0 20px;
+  max-width: 1000px;
+
+  img {
+    max-width: 100%;
+    vertical-align: bottom;
+  }
+
+  .top {
+    padding: 10px;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    
+    li {
+      width: 20%;
+      padding: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #jq3 {
+    padding: 0 10px;
+    margin: 10px auto;
+    
+    .top {
+      padding: 5px;
+    }
+    li {
+      padding: 5px;
+    }
+  }
+}

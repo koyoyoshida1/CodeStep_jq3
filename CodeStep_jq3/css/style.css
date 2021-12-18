@@ -1,0 +1,43 @@
+html {
+  font-size: 100%;
+}
+
+#jq3 {
+  margin: 20px auto;
+  padding: 0 20px;
+  max-width: 1000px;
+}
+
+#jq3 img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+#jq3 .top {
+  padding: 10px;
+}
+
+#jq3 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+#jq3 ul li {
+  width: 20%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  #jq3 {
+    padding: 0 10px;
+    margin: 10px auto;
+  }
+  #jq3 .top {
+    padding: 5px;
+  }
+  #jq3 li {
+    padding: 5px;
+  }
+}
